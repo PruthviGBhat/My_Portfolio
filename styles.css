@@ -448,7 +448,7 @@ span {
     transition: 0.3s ease-in-out;
 }
 .project-container .card:hover {
-    height: 420px;
+    height: 440px;
     box-shadow: none;
     background: var(--main-color);
     color: var(--bg-color);
@@ -495,10 +495,13 @@ span {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     list-style: none;
+    font-size: medium;
+    font-weight: 900;
 }
 
 .project-container .card .content ul li:hover {
     cursor: pointer;
+   
 }
 
 @media (max-width:990px){
