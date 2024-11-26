@@ -11,7 +11,7 @@
 
 <body>
     <header class="header">
-        <a href="#" class="logo">My_Portfolio</a>
+        <a href="#" class="logo">Bhat-Bytes</a>
         <i class='bx bx-menu' id="menu-icon"></i>
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
@@ -107,79 +107,44 @@
     </section>
 
     <section class="projects" id="projects">
-        <h2 class="heading_p">My <span>Projects</span></h2>
+        <h2 class="heading_np">My <span>Projects</span></h2>
+        <h4 class="guidelines">Hover over the image to see projects</h4>
         <div class="project-container">
             <div class="card">
-                <div class="project-box">
-                    <img src="images.png" alt="">
-                </div>
-                <div class="content">
-                    <h2>Level-1</h2>
-                    <ul>
-                        <li>WWE &nbsp &nbsp &nbsp <a href="https://github.com/PruthviGBhat/WWE" target="_blank"><i
-                                    class='bx bx-link'></i></a></li>
-                        <li>Engineer is Struggling &nbsp &nbsp &nbsp <a
-                                href="https://github.com/PruthviGBhat/EngineerIsStruggling" target="_blank"><i
-                                    class='bx bx-link'></i></a></li>
-                        <li>Website Clones &nbsp &nbsp &nbsp <a href="https://github.com/PruthviGBhat/LinkedIn"
-                                target="_blank"><i class='bx bx-link'></i></a></li>
-                        <li>Typist &nbsp &nbsp &nbsp <a href="https://github.com/PruthviGBhat/Typist" target="_blank"><i
-                                    class='bx bx-link'></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <div class="project-box">
-                    <img src="l2.png" alt="">
-                </div>
-                <div class="content">
-                    <h2>Level-2</h2>
-                    <ul>
-                        <li>Resume Builder &nbsp &nbsp &nbsp <a href="https://github.com/PruthviGBhat/ResumeCrafter"
-                                target="_blank"><i class='bx bx-link'></i></a></li>
-                        <li>Chrome Extension &nbsp &nbsp &nbsp <a
-                                href="https://github.com/PruthviGBhat/ForeignTraveller" target="_blank"><i
-                                    class='bx bx-link'></i></a></li>
-                        <li>Bash Scripts &nbsp &nbsp &nbsp <a href="https://github.com/PruthviGBhat/BashScripts"
-                                target="_blank"><i class='bx bx-link'></i></a></li>
-                        <li>Custom Browser &nbsp &nbsp &nbsp <a href="https://github.com/PruthviGBhat/CustomBrowser"
-                                target="_blank"><i class='bx bx-link'></i></a></li>
-                    </ul>
+                <div class="imgbox"><img src="projectx.jpg" alt=""> </div>
+                <div class="details">
+                    <div class="content">
+                        <h2 class="pro_head">Some Notable Projects</h2>
+                        <ul>
+                            <li><a href="https://brahmins.netlify.app/" target="_blank">Brahmin's Restaurant &nbsp
+                                    &nbsp &nbsp <i class='bx bx-link'></i></a></li>
+                            <li><a href="https://scrapuncle.onrender.com/" target="_blank">Scrap Uncle
+                                    &nbsp &nbsp &nbsp <i class='bx bx-link'></i></a></li>
+                            <li><a href="https://github.com/PruthviGBhat/BashScripts" target="_blank">SSL Checker
+                                    &nbsp &nbsp &nbsp <i class='bx bx-link'></i></a></li>
+                            <li><a href="https://github.com/PruthviGBhat/ForeignTraveller" target="_blank">Foreign
+                                    Traveller &nbsp &nbsp &nbsp <i class='bx bx-link'></i></a></li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
 
-
-            <div class="card">
-                <div class="project-box">
-                    <img src="l1.png" alt="">
-                </div>
-                <div class="content">
-                    <h2>Level-3</h2>
-                    <ul>
-                        <li>Scrap Uncle &nbsp &nbsp &nbsp <a href="https://scrapuncle.onrender.com/" target="_blank"><i
-                                    class='bx bx-link'></i></a></li>
-                        <li>Brahmins &nbsp &nbsp &nbsp <a href="https://brahmins.netlify.app/" target="_blank"><i
-                                    class='bx bx-link'></i></a></li>
-                        <li>My_Portfolio &nbsp &nbsp &nbsp<a href="https://pruthvibhatportfolio.netlify.app/"
-                                target="_blank"><i class='bx bx-link'></i></a></li>
-                    </ul>
-                </div>
-            </div>
         </div>
     </section>
 
     <section class="Contact" id="contact">
-        <h2 class="heading_p">Contact <span>Me!</span></h2>
-        <form action="#" class="contactform">
+        <h2 class="heading_np">Contact <span>Me!</span></h2>
+        <form action="https://formspree.io/f/xzzbjpda" method="POST" class="contactform">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address">
             </div>
             <div class="input-box">
-                <input type="text" placeholder="Subject">
-                <input type="number" placeholder="Mobile No.">
+                <input type="text" name="subject" placeholder="Subject">
+                <input type="number" placeholder="Mobile No." required>
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your message" name="message"></textarea>
             <input type="submit" value="send message" class="btn">
         </form>
     </section>
@@ -194,3 +159,54 @@
 </body>
 
 </html>
+
+
+
+<!-- 
+
+<div class="project-box">
+    <img src="images.png" alt="">
+</div>
+<div class="content">
+    <h2>Level-1</h2>
+    <ul>
+        <li>WWE &nbsp &nbsp &nbsp <a href="https://github.com/PruthviGBhat/WWE" target="_blank"><i
+                    class='bx bx-link'></i></a></li>
+        <li>Engineer is Struggling &nbsp &nbsp &nbsp <a href="https://github.com/PruthviGBhat/EngineerIsStruggling"
+                target="_blank"><i class='bx bx-link'></i></a></li>
+        <li>Website Clones &nbsp &nbsp &nbsp <a href="https://github.com/PruthviGBhat/LinkedIn" target="_blank"><i
+                    class='bx bx-link'></i></a></li>
+        <li>Typist &nbsp &nbsp &nbsp <a href="https://github.com/PruthviGBhat/Typist" target="_blank"><i
+                    class='bx bx-link'></i></a></li>
+    </ul>
+</div>
+<div class="project-box">
+    <img src="l2.png" alt="">
+</div>
+<div class="content">
+    <h2>Level-2</h2>
+    <ul>
+        <li>Resume Builder &nbsp &nbsp &nbsp <a href="https://github.com/PruthviGBhat/ResumeCrafter" target="_blank"><i
+                    class='bx bx-link'></i></a></li>
+        <li>Chrome Extension &nbsp &nbsp &nbsp <a href="https://github.com/PruthviGBhat/ForeignTraveller"
+                target="_blank"><i class='bx bx-link'></i></a></li>
+        <li>Bash Scripts &nbsp &nbsp &nbsp <a href="https://github.com/PruthviGBhat/BashScripts" target="_blank"><i
+                    class='bx bx-link'></i></a></li>
+        <li>Custom Browser &nbsp &nbsp &nbsp <a href="https://github.com/PruthviGBhat/CustomBrowser" target="_blank"><i
+                    class='bx bx-link'></i></a></li>
+    </ul>
+</div>
+<div class="project-box">
+    <img src="l1.png" alt="">
+</div>
+<div class="content">
+    <h2>Level-3</h2>
+    <ul>
+        <li>Scrap Uncle &nbsp &nbsp &nbsp <a href="https://scrapuncle.onrender.com/" target="_blank"><i
+                    class='bx bx-link'></i></a></li>
+        <li>Brahmins &nbsp &nbsp &nbsp <a href="https://brahmins.netlify.app/" target="_blank"><i
+                    class='bx bx-link'></i></a></li>
+        <li>My_Portfolio &nbsp &nbsp &nbsp<a href="https://pruthvibhatportfolio.netlify.app/" target="_blank"><i
+                    class='bx bx-link'></i></a></li>
+    </ul>
+</div> -->

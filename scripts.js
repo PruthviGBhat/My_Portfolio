@@ -44,3 +44,4 @@ ScrollReveal().reveal('.home-content, .heading, .heading_p', { origin: 'top' });
 ScrollReveal().reveal('.homeimg, .experiences-container, .project-box, .contactform', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+ScrollReveal().reveal('.guidelines, .heading_np', {origin: 'right',reset: true,distance: '50px',duration: 2000,delay: 300 });    
